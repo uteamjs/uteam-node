@@ -1,6 +1,6 @@
 {
     "name": "@uteamjs/node",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "@uteamjs/node Restful API framework",
     "repository": {
         "type": "git",
