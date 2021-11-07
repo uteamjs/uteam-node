@@ -22,11 +22,10 @@ Change to __...packages/main__ folder, then start the  server:
 ```
 $ node server
 ```
+Refer to [Get Started](https://u.team/document/introduction/getstart) for more details.
 
-Refer to [CRUD Api tutorial](https://u.team/document/tutorial/crudapi) for more details.
-
-# Exmaple
-In this following example, the name of the reducer **‘crud-api/contact’** defines the  \<package>/\<component> destination.
+# Example
+In this following example, the name of the reducer **‘crud-api/contact’** defines the  **\<package>/\<component>** destination.
 ```jsx    
 const reducer = utReducer('crud-api/contact', {
    actions: {
@@ -65,7 +64,7 @@ exports.load = sqlseries((db, payload) => [
 ```
 The frontend [props.api('load', {})](https://u.team/document/uteam-react/callapi#api) function will be routed to the backend **export.load** function automatically.  
 
-After you execute the query, assign the result rows to the payload object.  
+After you execute the query, assign the result rows to the **payload** object.  
 
 Corresponding frontend layout:
 ```jsx
@@ -78,6 +77,6 @@ class layout extends _layout {
    render = () => this.Content()
 }
 ```
-
+Refer to [CRUD Api tutorial](https://u.team/document/tutorial/crudapi) for more details.
 # License
 [MIT](LICENSE)
