@@ -8,6 +8,24 @@
 - Advanced flow control
 - Integrate with [@uteamjs/react](https://u.team/document/uteam-react/overview)
 
+# Installation
+[uteam CLI](https://u.team/document/uteam-react/overview) helps you automate the creation, deletion and generation of application modules and packages.
+```
+$ npm install -g uteam
+```
+Use **uteam create** to create **Node.js** application based on [@uteamjs/node](https://u.team/document/uteam-node/overview) framework:
+```
+$ uteam create -a tutorial-node -t node-application
+
+```
+Change to __...packages/main__ folder, then start the  server:
+```
+$ node server
+```
+
+Refer to [CRUD Api tutorial](https://u.team/document/tutorial/crudapi) for more details.
+
+# Exmaple
 In this following example, the name of the reducer **‘crud-api/contact’** defines the  \<package>/\<component> destination.
 ```jsx    
 const reducer = utReducer('crud-api/contact', {
@@ -60,4 +78,6 @@ class layout extends _layout {
    render = () => this.Content()
 }
 ```
-Please refer to the [Crud Api tutorial](https://u.team/document/tutorial/crudapi) for more details.
+
+# License
+[MIT](LICENSE)
