@@ -26,6 +26,7 @@
         "moment": "^2.29.1",
         "passport": "^0.5.0",
         "passport-jwt": "^4.0.0",
+        "pg": "^8.7.1",
         "sessionstore": "^0.4.8",
         "uuid": "^8.3.2",
         "winston": "^3.3.3",
