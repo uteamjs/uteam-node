@@ -1,6 +1,8 @@
 package-lock.json
 **/.DS_store
 
+**/uploads
+
 # Logs
 logs
 *.log
